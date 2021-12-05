@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cantarell:ital,wght@1,700&family=Roboto:ital,wght@1,300&display=swap');
+
 
 
 
@@ -7,7 +8,7 @@
  margin: 0;
  padding: 0;
  box-sizing: border-box;
- font-family: 'Bebas Neue';
+ font-family: 'Roboto';
  
 
 }
@@ -133,7 +134,7 @@ color: #fff;
 
 
     main .slider ul li img{
-        width: 120%;
+        width: 80%;
         padding-left: 10%;
 
     }
@@ -145,6 +146,30 @@ color: #fff;
         
         
     }
+
+    .quienessomos2 {
+        grid-template-columns: 1.52fr 1fr 1fr 1.525fr;
+        grid-template-areas:
+          'A'
+          'B'
+          'C';
+      } 
+    }
+    
+    img:nth-child(1) {
+     grid-area: A;
+    }
+    img:nth-child(2) {
+     grid-area: B;
+    }
+    img:nth-child(3) {
+     grid-area: C;
+    }
+  
+    img {
+      width: 100%;
+      height: auto;
+    
     
 }
 
@@ -157,8 +182,15 @@ main{
   
 }
 
+main .titulo .contenido img{
+ display: flex;
+    width: auto;
+    height: auto;
+   
+}
+
 main .quienessomos{
-    height: 200px;
+    height: 250px;
     background: linear-gradient(to right, #babdbb, #6b6c6d);
     flex-wrap: nowrap;
 
@@ -474,6 +506,40 @@ a:focus {
 }
 
 
+.quienessomos2 {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-areas:
+      'A'
+      'B' 
+      'C'
+     ;
+  }
+  @media (min-width: 576px) {
+    .quienessomos2 {
+      grid-template-columns: 1.52fr 1fr 1fr 1.525fr;
+      grid-template-areas:
+        'A'
+        'B'
+        'C';
+    } 
+  }
+  
+  img:nth-child(1) {
+   grid-area: A;
+  }
+  img:nth-child(2) {
+   grid-area: B;
+  }
+  img:nth-child(3) {
+   grid-area: C;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
 
 
 
@@ -501,6 +567,39 @@ flex-wrap: nowrap;
         flex-direction:column;
         flex-wrap: nowrap;
 }
+
+
+.quienessomos2 {
+    grid-template-columns: 1.52fr 1fr 1fr 1.525fr;
+    grid-template-areas:
+      'A' 'B' 'C';
+  } 
+
+
+
+img:nth-child(1) {
+ grid-area: A;
+}
+img:nth-child(2) {
+ grid-area: B;
+}
+img:nth-child(3) {
+ grid-area: C;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+
+.productmake{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-decoration: black;
+}
+
 
 
 

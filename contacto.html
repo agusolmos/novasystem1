@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" 
     integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
 <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
-<link href = "https: //fonts.googleapis.com/css2? family = Bebas + Neue & family = Cantarell: ital, wght @ 1,700 & display = swap "rel =" stylesheet ">
+
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cantarell:ital,wght@1,700&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
 
 
 
@@ -67,80 +68,43 @@
     </header>
 
     <main>
-    
-
-    <h1 class="titulo">Inicio</h1> 
-
-    <div class="contenido"></div>
-    <img src="./Imagenes/PAGINA WEB/Index nova.jpg" alt="imagendeinicio">       
-    </div>    
-
       
     
+        <section>
 
-    <div class="quienessomos">  
- 
-     <h1 class="titulo">¿Quienes somos?</h1>
-     <p class="parrafo">NOVASYSTEM Entretenimiento: Somos una empresa dedicada a la fabricación de maquinas retro de videojuegos. Esta empresa comenzó a principios del año 2018, hoy en día hacemos envíos en todo Argentina. Fabricamos productos de excelente calidad, productos elaborados desde cero, con lo mejor del mercado. También contamos con los mejores sistemas de videojuegos, diseñadores y lo mejor de todo el menor plazo de fabricación.</p>
-
-</div>
-
-
-
-<div class="slider">  
-      <h1 class="titulo">Productos</h1>  
-      <ul>
-
-    
-      <li><img src="./Imagenes/productos index/pedestal dbz.png" alt=""></li>
-      <li><img src="./Imagenes/productos index/Pedestal street.png" alt=""></li>
-      <li><img src="./Imagenes/productos index/Pedestal peaky.png" alt=""></li>
-      <li><img src="./Imagenes/productos index/Pedestal KOF.png" alt=""></li>
-      <li><img src="./Imagenes/productos index/pedestal san martin.png" alt=""></li>
-      <li><img src="./Imagenes/productos index/Tablero dbz.png" alt=""></li>
-      <li><img src="./Imagenes/productos index/Tablero river.png" alt=""></li>
-      <li><img src="./Imagenes/productos index/tablero exclusivo.png" alt=""></li>
-
-      
-    </ul> 
-                 </div>
-         
-
-
-
-
-
-
-<div class="videomuestra"> 
-
-    <h1 class="titulo"  >Video de muestra:</h1>
-     
-     
-    <div>       
-       <iframe width="560" height="315" src="https://www.youtube.com/embed/d8IdrmPE4iI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-       
-    
-    
-    
-    
-   </div>
-
-<div class="contact">
-
-
-    <h1 class="titulo">Contactenos</h1>
- 
-    <p class="parrafo">Somos Novasystem entretenimiento, buscanos en todas las redes sociales</p>
-
-</div>    
+            <h1 class="titulo">Contactenos</h1>
         
-</main>
-
-
-
-<!--FOOTER -->
-
-
+            <p class="parrafo">Somos Novasystem entretenimiento, buscanos en todas las redes sociales</p>
+        
+        
+        
+        <!--Lista ordenada-->
+        
+        <fieldset class="listacontacto">
+        
+        <form action="/" method="post">
+        
+            <label for="">Nombre y apellido:</label>
+          <input class="form-control" id="nombrecontactenos" type= "text">
+        
+          <label for="">Correo:</label>
+          <input class="form-control" id="correo" type= "text">
+        
+          <label for="">Domicilio:</label>
+          <input class="form-control" id="domicilio" type= "text">
+        
+          <label for="">Celular:</label>
+          <input class="form-control" id="celular" type= "text">
+        
+          <br>
+            <br>
+            <button href="#" class="btn">Enviar formulario</button>
+            <button href="#" class="btn">Reset</button>
+        </fieldset>
+        
+        </section>
+       
+       
 
 <footer>
     
@@ -232,6 +196,210 @@
 </footer>
 
 
+   </body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVASYSTEM | Entertaiment </title>
+    <link rel="shortcut icon" href="./Imagenes/LOGO JULIO 2021.png">
+<link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+
+
+
+    <header>
+  
+        <!--Menu de navegacion principal-->
+    
+        <div class="logo">
+    <!--Logo del menu principal-->
+    <img src="./Imagenes/LOGO JULIO 2021.png" alt="logo nova" class="logo">
+    <a href="../CoderHouse - Desarrollo Web FullStack/index.html"></a>
+          </div>
+       
+          <div>
+              <!--Texto del menu principal-->
+              <h1 class="textomenu1">NOVASYSTEM</h1>
+              <h1 class="textomenu2">ENTRETENIMIENTO</h1>
+          </div>
+    
+          <nav>  
+    
+            <ul class="menu">
+                <li> <a href="./index.html"> Inicio </a></li>
+                <li><a href="./quienessomos.html"> ¿Quienes somos?</a></li>
+                <li><a href="./productos.html">Productos</a></li>
+                <li><a href="./contacto.html"> Contacto </a></li>
+                <li><a href="./creatucuenta.html">Crea tu cuenta</a></li>
+                <li><a href="./ingresa.html" >Ingresa</a></li>
+                <li><a href="#" >Tu carrito</a></li>
+        
+            </ul>
+            </nav>
+    </header>
+
+
+
+
+<main>
+    
+<section>
+    <div class="inicio">
+        <h1>Inicio</h1> 
+    </div>
+    <div>
+        <img src="./Imagenes/index.jpg" alt="imagendeinicio" class="fotodeinicio"> 
+    </div> 
+    
+</section> 
+
+    
+
+    <br>
+
+
+
+    <!--Contactenos-->
+
+
+
+ <section>
+
+     <h1 class="titulo">Contactenos</h1>
+ 
+     <p class="parrafo">Somos Novasystem entretenimiento, buscanos en todas las redes sociales</p>
+ 
+ 
+ 
+ <!--Lista ordenada-->
+ 
+ <fieldset class="listacontacto">
+ 
+ <form action="/" method="post">
+ 
+     <label for="">Nombre y apellido:</label>
+   <input id="nombrecontactenos" type= "text">
+ 
+   <label for="">Correo:</label>
+   <input id="correo" type= "text">
+ 
+   <label for="">Domicilio:</label>
+   <input id="domicilio" type= "text">
+ 
+   <label for="">Celular:</label>
+   <input id="celular" type= "text">
+ 
+   <br>
+     <br>
+     <input type="submit" value= "Enviar formulario">
+     <input type="submit" value=Resetear> 
+ </fieldset>
+ 
+ </section>
+
+
+
+
+</main>
+
+
+<!--FOOTER-->
+
+<footer>
+
+  
+
+    <section>Formulario de suscripcion</section> 
+    
+<fieldset>
+
+    <form action="/" method="post">
+    
+        <label for="">Correo:</label>
+      <input id="Correo" type= "text">
+    
+     
+      <br>
+        <br>
+        <input type="submit" value= "Enviar">
+        
+    
+      <p>Celular:+54-3865581557</p>
+      <p>Instagram: novasystem.ar</p>
+      <p>Facebook: Novasystem.ceo</p>
+    </fieldset>
+
+    
+     <!--Ingresar y logo de whatsapp,Instagram,Facebook-->
+
+     
+ <section>
+    <!--Logo whatsapp-->
+        <div class="logowsp">
+            <a href="https://api.whatsapp.com/send?phone=543865581557"><img src="./Imagenes/PAGINA WEB/LOGOS/WHATSAPP.png"></a>
+    </div>
+    <br>
+    <!--Logo facebook-->
+    
+    <div class="logofacebook">
+        <a href="https://www.facebook.com/novasystem.ceo"><img src="./Imagenes/PAGINA WEB/LOGOS/fACEBOOK.png"></a>
+    
+    </div>
+
+    <br>
+
+    <!--LogoInstagram-->
+    <div class="logoig">
+        <a href="https://www.instagram.com/novasystem.ar/"><img src="./Imagenes/PAGINA WEB/LOGOS/INSTAGRAM.png"></a>
+    
+    </div>
+    <br>
+    
+    
+     </section>
+
+     
+    
+    
+  
+</footer>
+  
+
+</form>
    </body>
 
 </html>
